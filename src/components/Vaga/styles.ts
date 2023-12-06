@@ -8,6 +8,17 @@ export const Lista = styled.li`
   padding: 16px;
   transition: all ease 0.3s;
   border-radius: 8px;
+
+  &:hover {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+  }
+
+  &:hover a {
+    border-color: var(--cor-principal);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+  }
 `
 
 export const Titulo = styled.h3`
@@ -27,12 +38,6 @@ export const Link = styled.a`
   font-size: 14px;
   border-radius: 8px;
   text-align: center;
-
-  &:hover {
-    background-color: var(--cor-principal);
-    color: var(--cor-secundaria);
-    border-color: var(--cor-principal);
-  }
 
   @media (max-width: 768px) {
     display: block;

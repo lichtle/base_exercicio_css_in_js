@@ -26,13 +26,12 @@ export const Formulario = styled.form`
     padding: 24px 0;
   }
 `
-export const Container = styled.div`
-  position: relative;
-  color: #eee;
-`
+
 export const Title = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
+  color: #eee;
+  position: relative;
 
   @media (max-width: 768px) {
     font-size: 32px;
