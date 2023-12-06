@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import '../../variables.css'
 
 export const Formulario = styled.form`
   height: 360px;

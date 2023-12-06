@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import '../../variables.css'
 
 export const Lista = styled.li`
   border: 1px solid var(--cor-principal);
